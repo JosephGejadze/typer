@@ -1,38 +1,118 @@
-.App {
+.DisplayTextDiv{
+  position: absolute;
+  top:20px;
   text-align: center;
-}
+  width: 100%;
+  }
+  
+  .DisplayTextDiv button{
+    height: 50px;
+    width: 150px;
+    padding: 5px;
+    border: 2px solid rgb(118, 209, 118);
+    background-color: rgb(144, 238, 144);
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+  }
+  
+  .DisplayTextDiv button:hover{
+    opacity: 75%;
+  }
+  
+  .DisplayTextDiv button:focus{
+    background-color: rgb(118, 209, 118);
+  }
+  
+  .DisplayTextP{
+  width: 800px;
+  display: inline-block;
+  text-align: left;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 24px;
+  }
+  
+  .DisplayLettersDiv{
+    text-align: center;
+    width: 100%;
+  }
+  
+  .LetterBoxDiv{
+    text-align: left;
+    display: inline-block;
+    width: 800px;
+  }
+  
+  .LetterDiv{
+    display: inline;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+  }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+  .correct{
+    background-color: lightgreen;
+  }
 
-@media (prefers-reduced-motion: no-preference) {
+  .incorrect{
+    background-color: rgb(238, 144, 144);
+  }
+  
+  .current{
+    background-color: rgb(255, 136, 219);
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .App {
+    text-align: center;
+  }
+  
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    height: 40vmin;
+    pointer-events: none;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
   }
-  to {
-    transform: rotate(360deg);
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
   }
-}
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
